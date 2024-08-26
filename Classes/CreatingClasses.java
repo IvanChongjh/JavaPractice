@@ -1,6 +1,8 @@
+
 package Classes;
 
 public class CreatingClasses {
+    
     String name = "Default";
     int age = 0;
 
@@ -15,6 +17,8 @@ public class CreatingClasses {
         test.age = 50;
 
         System.out.println(test.age);
+        StudentClass testOne = new StudentClass();
+        testOne.detailsOfStudent();
 
     }
 }
