@@ -18,6 +18,13 @@ public class CreatingClasses {
 
         System.out.println(test.age);
         StudentClass testOne = new StudentClass();
+
+
+        
+        testOne.detailsOfStudent();
+        testOne.setStudentAge(20);
+        testOne.setStudentName("Sarah");
+        testOne.setStudentCourse("Nurse");
         testOne.detailsOfStudent();
 
     }
