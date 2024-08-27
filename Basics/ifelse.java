@@ -6,9 +6,9 @@ public class ifelse {
         int testscore = 10;
 
         if (testscore >= 50) {
-            System.out.println("You are above 0 ");
+            System.out.println("You have failed the test");
         } else
             System.out.println("You have passed the test");
-        
+
     }
 }
