@@ -8,11 +8,12 @@ public class linkedlist {
         numbers.push(10);
         numbers.push(30);
 
-        for(int i:numbers)
-        {
-            System.out.println(i);
-            
-        }
+        System.out.println(numbers);
+
+        LinkedList cloneNumbers = (LinkedList)numbers.clone(); // cloning linked list 
         
+        System.out.println(cloneNumbers);
+
+
     }
 }
