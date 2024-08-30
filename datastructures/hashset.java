@@ -14,7 +14,7 @@ public class hashset {
         System.out.println(elements);
 
         System.out.println(elements.contains(1)); // quick search into hash set to find if number 1 exist in the elements if found return true;
-
+        
 
     }   
 }
