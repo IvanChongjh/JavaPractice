@@ -1,5 +1,5 @@
 package Basics;
-import java.util.Scanner;
+import java.util.Scanner; // importing lib scanner
 public class changedatatypes {
     public static void main(String[] args)
     {
@@ -15,7 +15,8 @@ public class changedatatypes {
          
          float height = ((float)ageint); // casting from int to float 
          System.out.println("int value has been casted to float, The Value is : " + height);
-
+         
+         
 
 
     }
