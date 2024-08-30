@@ -8,5 +8,6 @@ public class userinput {
         System.out.println("Enter Username : "); // prompts user for username
         String userName  = myObjj.nextLine();  // using declared scanner to read in using nextline() function
         System.out.println(userName); 
+        
     }
 }
