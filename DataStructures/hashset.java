@@ -1,4 +1,4 @@
-package datastructures;
+package DataStructures;
 
 import java.util.HashSet;
 public class hashset {
