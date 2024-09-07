@@ -1,4 +1,4 @@
-package datastructures;
+package DataStructures;
 
 import java.util.ArrayList; // import array list 
 import java.util.Collections; // import collection for sorting 

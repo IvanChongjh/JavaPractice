@@ -14,6 +14,10 @@ public class mathematics {
         double avg = (((double)numberOne)+((double)numberTwo))/2;
         return avg;
     }
+    public static double subtraction(double numberOne, double numberTwo)
+    {
+        return numberOne - numberTwo;
+    }
     public static void main(String[] args)
     {
         System.out.println("Enter two numbers");
@@ -23,5 +27,7 @@ public class mathematics {
 
         System.out.println(sumUp(numberOne,numberTwo));
         System.out.println(average(numberOne,numberTwo));
+        System.out.println("The Subtraction between number one and number two is : " + subtraction(numberOne, numberTwo));
+        
     }
 }
