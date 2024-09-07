@@ -18,6 +18,7 @@ public class mathematics {
     {
         return numberOne - numberTwo;
     }
+    
     public static void main(String[] args)
     {
         System.out.println("Enter two numbers");
@@ -26,8 +27,8 @@ public class mathematics {
         int numberTwo = elements.nextInt();
 
         System.out.println(sumUp(numberOne,numberTwo));
-        System.out.println(average(numberOne,numberTwo));
+        System.out.println("The average of two numbers is : " + average(numberOne,numberTwo));
         System.out.println("The Subtraction between number one and number two is : " + subtraction(numberOne, numberTwo));
-        
+
     }
 }
