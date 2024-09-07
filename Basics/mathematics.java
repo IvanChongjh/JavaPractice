@@ -26,7 +26,7 @@ public class mathematics {
         int numberOne = elements.nextInt();
         int numberTwo = elements.nextInt();
 
-        System.out.println(sumUp(numberOne,numberTwo));
+        System.out.println("The sum of two numbers is : " + sumUp(numberOne,numberTwo));
         System.out.println("The average of two numbers is : " + average(numberOne,numberTwo));
         System.out.println("The Subtraction between number one and number two is : " + subtraction(numberOne, numberTwo));
 
